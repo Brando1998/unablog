@@ -1,0 +1,36 @@
+/* font */
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+/* Scrollbar */
+html {
+    scrollbar-width: normal;
+    scrollbar-color: #777 #555;
+}
+
+html::-webkit-scrollbar {
+    width: 4vh;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #7775;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #5555;
+}
+
+html::-webkit-scrollbar-track:hover {
+    background-color: #555;
+}
+
+.color1 {color: #002033;}
+.color2 {color: #004a85;}
+.color3 {color: #00a6ca;}
+.color4 {color: #00fcff;}
+.color5 {color: #86ffff;}

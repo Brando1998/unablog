@@ -1,0 +1,47 @@
+/* .post-preview {
+    
+} */
+.post-preview a {
+    text-decoration: none;
+    background-color: transparent;
+}
+.post-title {
+    font-size: 36;
+    font-weight: 800;
+}
+
+.post-subtitle {
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+.post-meta {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.page-heading {
+    position: relative;
+    padding: 200px;
+    color: white;
+    z-index: 99;
+}
+
+.masterhead {
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: #6c757d;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    background-image: url("../img/bg-index.jpg");
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: 0.5;
+}
