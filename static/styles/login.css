@@ -1,0 +1,35 @@
+body{
+    background:url(../img/wall\ paper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.clase1{
+    margin:0 auto;
+    margin-top: 25%;
+    padding: 0%;
+}
+.modal-content{
+    background-color: #002033;
+    opacity: .92;
+    padding: 0 20px;
+    box-shadow: 0px 0px 15px wheat;
+}
+.user-img{
+    margin-bottom: 35px;
+}
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border: 0;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+button{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+.forgot{
+    padding: 5px 0 ;
+}
+.forgot a{
+    color: white;
+}
