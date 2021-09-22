@@ -1,0 +1,59 @@
+<html class="no-js" lang="en">
+  <head>
+      <title> NUEVO ARTÍCULO </title>
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"></link>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+
+      <link rel="stylesheet" href="static/styles/articulo.css">
+  
+  </head>
+  
+  <body>
+      <div class="container mt-5">
+          <div class="card">
+              <h5 class="card-header text-center">NUEVO ARTÍCULO</h5>
+              <div class="card-body">
+                  <form role="form" data-toggle="validator">
+  
+                      <div class="form-group">
+                          <label>Título del artículo</label>
+                          <input type="text" class="form-control" data-error="Por favor escriba un título" id="inputName" placeholder="Título" required>
+  
+                          <!-- Error -->
+                          <div class="help-block with-errors"></div>
+                      </div>
+  
+                      <div class="form-group">
+                          <label>Palabras claves</label>
+                          <input type="text" class="form-control" name="palabras_claves" id="inputword" placeholder="Palabras claves" required>
+  
+                          <!-- Error -->
+                          <div class="help-block with-errors"></div>
+                      </div>
+  
+                      <div class="form-group">
+                          <label>Texto del artículo</label>
+                          <textarea class="form-control" data-error="Por favor escriba el contenido del artículo" id="inputMessage"
+                              placeholder="Texto" required=""></textarea>
+  
+                          <!-- Error -->
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="imagen">Insertar imagen o video</label><br>
+                        <input type="file" name="imagen_video" id="imagen" accept="imagen/*"> <br>
+                      </div>
+  
+                      <div class="form-group">
+                          <button type="submit" class="btn btn-primary btn-block">PUBLICAR</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </body>
+  
+  </html>
+  
