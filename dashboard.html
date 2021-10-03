@@ -100,7 +100,7 @@
                 <!-- new article -->
                 <div class="tab-pane fade show active" id="new-article" role="tabpanel"
                     aria-labelledby="new-article-tab">
-                    <form role="form" class="py-3">
+                    <form role="form" class="py-3 needs-validation" novalidate>
 
                         <div class="form-group mb-4">
                             <label>Título del artículo</label>
@@ -123,7 +123,7 @@
                         <div class="form-group mb-4">
                             <label>Texto del artículo</label>
                             <textarea class="form-control" data-error="Por favor escriba el contenido del artículo"
-                                id="inputMessage" placeholder="Texto" required=""></textarea>
+                                id="inputMessage" placeholder="Texto" required></textarea>
 
                             <!-- Error -->
                             <div class="help-block with-errors"></div>
@@ -131,7 +131,7 @@
 
                         <div class="form-group mb-4">
                             <label for="imagen">Insertar imagen o video</label><br>
-                            <input type="file" name="imagen_video" id="imagen" accept="imagen/*"> <br>
+                            <input type="file" name="imagen_video" id="imagen" accept="imagen/*" required> <br>
                         </div>
 
                         <div class="form-group mb-4">
@@ -164,5 +164,7 @@
     integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha"
     crossorigin="anonymous"></script>
 <script src="dashboard.js"></script>
+<!-- custom scripts -->
+<script src="static/scripts/init.js"></script>
 
 </html>
